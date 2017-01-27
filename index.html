@@ -11,9 +11,9 @@ humandate: "Jan 30 - Feb 1, 2017"    # human-readable dates for the workshop (e.
 humantime: "8:30 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2017-01-30      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2017-02-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Rebecca Lange, Matthias Liffers, Andrew Rohl, Andrea Bedini, Stefania Bertazzoni, Rob Syme"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Kevin Chai", "Cara Kreck"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["rob.syme@curtin.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+instructor: ["Stefania Bertazzoni", "Andrea Bedini", "Rob Syme", "Rebecca Lange", "Matthias Liffers"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Mark Agostino", "Paul Hancock", "Behrouz Khabbaz Beheshti", "Cara	Kreck"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["rebecca.lange@curtin.edu.au", "rob.syme@curtin.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad: http://pad.software-carpentry.org/2017-01-30-resbaz      # optional: URL for the workshop Etherpad if there is one
 eventbrite: 29467131985          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -191,44 +191,46 @@ and the administrator will contact you if we need any extra information.</h4>
   2' to be actual dates or days of the week.
 -->
 <h2 id="schedule">Schedule</h2>
-<div class="row">
-  <div class="col-md-4">
-    <h3>Day 1 - Monday Jan 30</h3>
-    <table class="table table-striped">
-      <tr> <td>08:00</td>  <td>Registration Open</td></tr>
-      <tr> <td>08:30</td>  <td>Welcome to country</td></tr>
-      <tr> <td>09:90</td>  <td></td></tr>
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-4">
-    <h3>Day 2 - Tuesday Jan 31</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-4">
-    <h3>Day 3 - Wednesday Feb 1</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-</div>
+<img src="img/schedule.png">
+<!-- <div class="row"> -->
+<!--   <div class="col-md-4"> -->
+<!--     <h3>Day 1 - Monday Jan 30</h3> -->
+<!--     <table class="table table-striped"> -->
+<!--       <tr> <td>08:00</td>  <td>Registration Open</td></tr> -->
+<!--       <tr> <td>08:30</td>  <td>Welcome to country</td></tr> -->
+<!--       <tr> <td>09:90</td>  <td></td></tr> -->
+<!--       <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr> -->
+<!--       <tr> <td>10:30</td>  <td>Coffee at the bazaar</td> </tr> -->
+<!--       <tr> <td>11:30</td>  <td></td> </tr> -->
+<!--       <tr> <td>12:00</td>  <td>Lunch break</td> </tr> -->
+<!--       <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr> -->
+<!--       <tr> <td>14:30</td>  <td>Coffee</td> </tr> -->
+<!--       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr> -->
+<!--     </table> -->
+<!--   </div> -->
+<!--   <div class="col-md-4"> -->
+<!--     <h3>Day 2 - Tuesday Jan 31</h3> -->
+<!--     <table class="table table-striped"> -->
+<!--       <tr> <td>09:00</td>  <td>Version control with Git</td> </tr> -->
+<!--       <tr> <td>10:30</td>  <td>Coffee</td> </tr> -->
+<!--       <tr> <td>12:00</td>  <td>Lunch break</td> </tr> -->
+<!--       <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr> -->
+<!--       <tr> <td>14:30</td>  <td>Coffee</td> </tr> -->
+<!--       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr> -->
+<!--     </table> -->
+<!--   </div> -->
+<!--   <div class="col-md-4"> -->
+<!--     <h3>Day 3 - Wednesday Feb 1</h3> -->
+<!--     <table class="table table-striped"> -->
+<!--       <tr> <td>09:00</td>  <td>Version control with Git</td> </tr> -->
+<!--       <tr> <td>10:30</td>  <td>Coffee</td> </tr> -->
+<!--       <tr> <td>12:00</td>  <td>Lunch break</td> </tr> -->
+<!--       <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr> -->
+<!--       <tr> <td>14:30</td>  <td>Coffee</td> </tr> -->
+<!--       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr> -->
+<!--     </table> -->
+<!--   </div> -->
+<!-- </div> -->
 
 <!--
   ETHERPAD
@@ -251,9 +253,9 @@ and the administrator will contact you if we need any extra information.</h4>
   own Etherpad for chatting, taking notes, and sharing URLs and bits
   of code.
   <ul>
-	<li><strong>Software Carpentry room #1:</strong> <a href="{{page.etherpad}}-room1">{{page.etherpad}}-room1</a>.</li>
-	<li><strong>Software Carpentry room #2:</strong> <a href="{{page.etherpad}}-room2">{{page.etherpad}}-room2</a>.</li>
-	<li><strong>Data Carpentry:</strong> <a href="http://pad.software-carpentry.org/2017-01-30-perth-data">http://pad.software-carpentry.org/2017-01-30-perth-data</a>.</li>
+	<li><strong style="color: #FFCC00">Software Carpentry R stream:</strong> <a href="{{page.etherpad}}-r">{{page.etherpad}}-r</a>.</li>
+	<li><strong style="color: #FF9999">Software Carpentry Python stream:</strong> <a href="{{page.etherpad}}-python">{{page.etherpad}}-python</a>.</li>
+	<li><strong style="color: #FF66CC">Data Carpentry:</strong> <a href="http://pad.software-carpentry.org/2017-01-30-perth-data">http://pad.software-carpentry.org/2017-01-30-perth-data</a>.</li>
   </ul>
 </p>
 {% endif %}
